@@ -7,57 +7,107 @@ body {
 
 body * {
     box-sizing: inherit;
+    border: 1px solid black;
 }
 
 .container {
     width: 100%;
     height: 100vh;
-    border: 5px solid gray;
     display: flex;
     /* align-content: flex-start;
     flex-wrap: wrap; */
 }
 
 .left {
-    width: 50%;
+    width: 50.5%;
     height: 100vh;
-    border: 1px solid gray;
     display: flex;
 }
 
 .left-two {
     width: 66%;
     height: 100vh;
-    border: 5px solid gray;
     justify-content: flex-start;
     background-color: blue;
+}
+
+.top-two {
+    width: 100%;
+    background-color: white;
+    height: 20%;
+    display: flex;
+}
+
+.top-two-left {
+    width: 34%;
+    height: 100%;
+}
+
+.top-two-right {    
+    width: 66%;
+    height: 100%;
+}
+
+.left-one-top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.yellow-top {
+    background-color: yellow;
+    /* flex-direction: column; */
+    height: 20%;
+    width: 100%;
+}
+
+.yellow-bottom {
+    background-color: yellow;
+    /* flex-direction: column; */
+    height: 40%;
+    width: 100%;
+}
+
+.left-one-bottom {
+    width: 100%;
+    height: 50%;
+    background-color: red;
 }
 
 .left-one {
     width: 34%;
     height: 100vh;
-    border: 5px solid gray;
     justify-content: flex-end;
     background-color: red;
 }
 
 .right {
-    width: 50%;
+    width: 50.5%;
     height: 100vh;
-    border: 1px solid gray;
     display: flex;
 }
 
 .right-two {
     width: 66%;
     height: 100vh;
-    border: 5px solid gray;
     background-color: purple;
 }
 
 .right-one {
     width: 34%;
     height: 100vh;
-    border: 5px solid gray;
     background-color: green;
+}
+
+.right-one-top {
+    width: 100%;
+    height: 50%;
+    background-color: fuchsia;
+}
+
+.right-one-bottom {
+    width: 100%;
+    height: 50%;
+    background-color: chartreuse;
 }
