@@ -9,20 +9,15 @@ body * {
     box-sizing: inherit;
 }
 
-.border {
-    background-color: white;
-    color: black;
-    font-size: 40px;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.top {
+    background-color: red;
+    width: 100%;
+    align-items: flex-start;
 }
 
 .container {
-    width: 80%;
-    height: 80%;
+    width: 100vw;
+    height: 100vh;
     border: 1px solid black;
     display: flex;
     align-content: flex-start;
@@ -30,22 +25,43 @@ body * {
     /* margin: 0 auto; */
 }
 
+/* .border {
+    background-color: white;
+    font-size: 40px;
+    width: 100vw;
+    height: 10%;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    /* border: 1px solid black; */
+    /* justify-content: center;
+    align-items: center; 
+} */
+
+/* .border:first-child {
+    align-items: flex-start;
+}
+
+.border:last-child {
+    align-items: flex-end;
+} */ 
+
 .row {
     display: flex;
     width: 100%;
-    height: 12.5%;
+    height: 10%;
 }
 
 .row-reverse {
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
-    height: 12.5%;
+    height: 10%;
 }
 
 .item {
     flex-direction: row;
-    width: 12.5%;
+    width: 10%;
     height: 100%;
     border: 1px solid black;
 }
@@ -56,4 +72,14 @@ body * {
 
 .item:nth-child(even) {
     background-color: #C0C0C0;
+}
+
+.item:first-child,
+.item:last-child {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: sans-serif;
 }
