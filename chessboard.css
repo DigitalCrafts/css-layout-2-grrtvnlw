@@ -22,29 +22,7 @@ body * {
     display: flex;
     align-content: flex-start;
     flex-wrap: wrap;
-    /* margin: 0 auto; */
-}
-
-/* .border {
-    background-color: white;
-    font-size: 40px;
-    width: 100vw;
-    height: 10%;
-    display: flex;
-    /* flex-direction: column; */
-    /* align-items: flex-start; */
-    /* border: 1px solid black; */
-    /* justify-content: center;
-    align-items: center; 
-} */
-
-/* .border:first-child {
-    align-items: flex-start;
-}
-
-.border:last-child {
-    align-items: flex-end;
-} */ 
+} 
 
 .border {
     display: flex;
