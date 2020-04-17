@@ -69,6 +69,16 @@ body * {
     width: 10%;
     height: 100%;
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: none;
+}
+
+img {
+    display: flex;
+    max-height: 80%;
+    max-width: 80%;
 }
 
 .item:nth-child(odd) {
