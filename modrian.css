@@ -326,3 +326,37 @@ body * {
 .level5bj {
     height: 20%;
 }
+
+.level4bh {
+    height: 40%;
+    display: flex;
+}
+
+.level5bk {
+    width: 70%;
+    background-color: var(--blue)
+}
+
+.level5bl {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.level6bc,
+.level6bd {
+    height: 50%;
+}
+
+.level4bi {
+    height: 10%;
+    display: flex;
+}
+
+.level5bm {
+    width: 60%;
+}
+
+.level5bn {
+    width: 40%;
+}
