@@ -258,7 +258,6 @@ body * {
     width: 37.5%;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
 }
 
 .level5ba {
@@ -290,4 +289,40 @@ body * {
     height: 20%;
 }
 
+.level4bf {
+    width: 37.5%;
+    display: flex;
+    flex-direction: column;
+}
 
+.level5be {
+    height: 20%;
+}
+
+.level5bf {
+    height: 40%;
+}
+
+.level5bg {
+    height: 40%;
+    background-color: var(--black);
+}
+
+.level4bg {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.level5bh {
+    height: 20%;
+}
+
+.level5bi {
+    height: 60%;
+    background-color: var(--yellow);
+}
+
+.level5bj {
+    height: 20%;
+}
