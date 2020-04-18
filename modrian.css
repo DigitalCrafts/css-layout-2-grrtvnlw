@@ -195,3 +195,58 @@ body * {
 .level6b {
     width: 50%;
 }
+
+
+
+.level2ba {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.level2bb {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.level3ba {
+    height: 20%;
+    background-color: var(--blue);
+}
+
+.level3bb {
+    height: 20%;
+    background-color: var(--red);
+}
+
+.level3bc {
+    height: 10%;
+}
+
+.level3bd {
+    height: 20%;
+    display: flex;
+}
+
+.level3be {
+    height: 20%;
+    background-color: var(--yellow);
+}
+
+.level3bf {
+    height: 10%;
+    display: flex;
+}
+
+.level4ba,
+.level4bb,
+.level4bc,
+.level4bd
+ {
+    width: 50%;
+}
+
+.level4bd {
+    background-color: var(--black);
+} */
