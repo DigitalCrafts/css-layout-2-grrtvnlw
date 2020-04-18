@@ -196,16 +196,8 @@ body * {
     width: 50%;
 }
 
-
-
 .level2ba {
     width: 30%;
-    display: flex;
-    flex-direction: column;
-}
-
-.level2bb {
-    width: 70%;
     display: flex;
     flex-direction: column;
 }
@@ -249,4 +241,68 @@ body * {
 
 .level4bd {
     background-color: var(--black);
+} 
+
+.level2bb {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+/* .level2bc {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
 } */
+
+.level3bg {
+    width: 40%;
+    height: 10%;
+    display: flex;
+}
+
+.level4be {
+    width: 50%;
+    background-color: var(--yellow);
+}
+
+.level4bd {
+    width: 50%;
+    background-color: var(--black);
+}
+
+.level3bh {
+    width: 40%;
+    height: 10%;
+    background-color: var(--yellow);
+}
+
+.level3bi {
+    width: 40%;
+    height: 10%;
+    background-color: var(--black);
+}
+
+.level3bj {
+    width: 40%;
+    height: 10%;
+}
+
+.level3bk {
+    height: 40%;
+    width: 70%;
+    background-color: var(--blue);
+}
+
+.level3bl {
+    height: 10%;
+    width: 60%;
+}
+
+.level4bf {
+    width: 40%;
+    height: 10%;
+}
+
